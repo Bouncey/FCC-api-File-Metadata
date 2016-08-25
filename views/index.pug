@@ -1,0 +1,13 @@
+doctype html
+html(lang="en-GB")
+  head
+    title File Metadata
+
+  body
+    h2 File Metadata Service
+
+    p Upload a file to see it's size
+
+    form(method="post" enctype="multipart/form-data" action="/file-upload")
+      input(type="file" name="file")
+      button(type="submit") Submit
